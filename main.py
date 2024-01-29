@@ -112,9 +112,9 @@ class Kniznica:
         for kniha in self.knihy:
             sprava += "\n" + kniha.__str__()
         return sprava
-kniha = Kniha("Don QUijote", "Miguel de Cervantes", "1245", 1, "1854")
-kniha2  = Kniha("Pán prsteňov - Spoločenstvo prsteňa", "J.R.R. Tolkien", "9788", 0, "1555")
-kniha3  = Kniha("Trilógia Hry o tróny", "George R.R. Martin", "2837", 1, "1998")
+kniha = Kniha("Don QUijote", "Miguel de Cervantes", "1245", True, "1854")
+kniha2  = Kniha("Pán prsteňov - Spoločenstvo prsteňa", "J.R.R. Tolkien", "9788", False, "1555")
+kniha3  = Kniha("Trilógia Hry o tróny", "George R.R. Martin", "2837", True, "1998")
 
 knihovna = Kniznica()
 knihovna.pridaj_knihu(kniha)
